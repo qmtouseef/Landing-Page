@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* eliminates blank space surrounding the border  */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-section {
+    background-color: #1F2937;
+} 
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: auto;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+/* Turns the unordered list and displays them in a row */
+
+.navbar-left,.navbar-right  {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
