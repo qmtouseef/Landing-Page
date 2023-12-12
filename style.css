@@ -1,6 +1,7 @@
 *{
-    margin: 0;
+    margin-top: 0;
     padding: 0;
+    
 }
 /* eliminates blank space surrounding the border  */
 
@@ -12,32 +13,236 @@ body{
     background-color: #1F2937;
 } 
 
-#header-logo {
+.header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header{
     font-size: 18px;
     color: #E5E7EB;
-    width: auto;
+    padding: 10px;
+    list-style-type: none;
+    
 }
 
 .navbar{
     display: flex;
-    flex-direction: row;
 }
 
 ul{
     display: flex;
-    flex-direction: row;
 }
 /* Turns the unordered list and displays them in a row */
 
-.navbar-left,.navbar-right  {
+.navbar-left,.navbar-right{
     display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
-
+    padding: .5em;
 }
+
+
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.content-left{
+    display: flex;
+    flex-direction: column ;
+    width: 50%;
+    justify-content: center;
+    
+}
+
+ .content .content-right img{
+    margin: 50px;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.p-first{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+
+
+.sign-up{
+    background-color: #3882f6;
+    color: white;
+    margin: 0 100px 0px 50px; 
+    border-radius: 25px;
+    margin: 10px 75% 20px 0;
+}   
+
+.sign-up:hover {
+    color: #fff;
+    background-color: rgb(7, 29, 150);
+    transform: translateY(-2px);
+    box-shadow: -1px 8px 16px 0px #11171f;
+}
+
+/* Section 2 */
+ 
+
+/* My Way */
+
+.more-info {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+  }
+
+.card-img {
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882f6;
+  }
+
+  .card p {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Third-section */
+
+ .quote {
+  background-color: #ddd;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+ }
+
+ .quote-text {
+  width: 700px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-weight: lighter;
+  font-style: italic;
+  line-height: 40px;
+ }
+
+ .quote-author{
+    margin-left: 550px;
+    font-weight: bold;
+ }
+/* 
+ Section-4 */
+
+ .call-to-action {
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cta-container {
+    background-color: #3882f6;
+    width: 700px;
+    height: 90px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cta-text {
+    width: 500px;
+    margin-right: 50px;
+  }
+  
+  h3 {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+  
+  .cta-text p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  
+  .cta-button {
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 7px 25px;
+  }
+  
+  .cta-button:hover {
+    color: #3882f6;
+    background-color: #fff;
+    transform: translateY(-2px);
+    box-shadow: -1px 8px 16px 0px #2b64bd;
+  }
+  
+  /* footer */
+  footer {
+    background-color: #1f2937;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  
